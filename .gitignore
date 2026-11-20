@@ -1,2 +1,22 @@
-# created by virtualenv automatically
-*
+# Python 虚拟环境
+.venv/
+venv/
+
+# Python 缓存
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# 编辑器配置
+.idea/
+.vscode/
+
+# 本地环境配置
+.env
+.env.*
+
+# 临时文件
+*.tmp
+~$*
+Thumbs.db
+.DS_Store
